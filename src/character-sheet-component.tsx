@@ -21,7 +21,7 @@ import rayoIcon from './iconos/rayo.png';
 import metalIcon from './iconos/metal.png';
 import plumaIcon from './iconos/pluma.png';
 import venenoIcon from './iconos/veneno.png';
-import hieloIcon from './iconos/hiel.png';
+import hieloIcon from './iconos/hielo.png';
 
 
 interface Skills {
