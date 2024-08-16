@@ -105,7 +105,6 @@ const defaultCharacter: Character = {
   notes: "",
 };
 
-
 const CharacterSheet: React.FC = () => {
   const [character, setCharacter] = useState<Character>(defaultCharacter);
   const [characters, setCharacters] = useState<Character[]>([]);
@@ -127,7 +126,7 @@ const CharacterSheet: React.FC = () => {
   const handleInputChange = (
     section: keyof Character,
     key: string,
-    value: boolean,
+    value: string | number | boolean,
     index?: number
   ) => {
     if (section === "skills" && index !== undefined) {
@@ -136,7 +135,7 @@ const CharacterSheet: React.FC = () => {
         skills: {
           ...prev.skills,
           [key]: prev.skills[key].map((item, i) =>
-            i === index ? (value ? item : "") : item
+            i === index ? (value as boolean) : item
           ),
         },
       }));
@@ -155,7 +154,6 @@ const CharacterSheet: React.FC = () => {
       }));
     }
   };
-  
 
   const saveCharacter = () => {
     const newCharacters = [...characters, character];
@@ -191,19 +189,19 @@ const CharacterSheet: React.FC = () => {
       {Object.entries(character.skills).map(([key, values]) => (
         <div key={key} className="mb-2">
           <div className="font-semibold">{key}</div>
-          <div className="flex flex-col space-y-2">
+          <div className="flex space-x-2">
             {values.map((value, index) => (
-              <div key={index} className="flex items-center">
+              <label key={index} className="flex items-center">
                 <input
                   type="checkbox"
-                  checked={!!value}
+                  checked={value}
                   onChange={() =>
                     handleInputChange("skills", key, !value, index)
                   }
                   className="mr-2"
                 />
-                <span>{value || `Checkbox ${index + 1}`}</span>
-              </div>
+                {index + 1}
+              </label>
             ))}
           </div>
         </div>
