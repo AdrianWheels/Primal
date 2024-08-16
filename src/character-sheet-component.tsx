@@ -21,6 +21,13 @@ import plumaIcon from './iconos/pluma.png';
 import venenoIcon from './iconos/veneno.png';
 import hieloIcon from './iconos/hielo.png';
 
+import greatBowIcon from './iconos/GB.png';
+import greatSwordIcon from './iconos/GS.png';
+import hammerIcon from './iconos/H.png';
+import heavyGunIcon from './iconos/HG.png';
+import dualBladeIcon from './iconos/DB.png';
+import swordShieldIcon from './iconos/SS.png';
+
 interface Skills {
   [key: string]: boolean[];
 }
@@ -105,6 +112,15 @@ const defaultCharacter: Character = {
   notes: "",
 };
 
+const classOptions = [
+  { name: "Great Bow", icon: greatBowIcon },
+  { name: "Great Sword", icon: greatSwordIcon },
+  { name: "Hammer", icon: hammerIcon },
+  { name: "Heavy Gun", icon: heavyGunIcon },
+  { name: "Dual Blade Karah", icon: dualBladeIcon },
+  { name: "Sword and Shield Ljonar", icon: swordShieldIcon },
+];
+
 const CharacterSheet: React.FC = () => {
   const [character, setCharacter] = useState<Character>(defaultCharacter);
   const [characters, setCharacters] = useState<Character[]>([]);
@@ -153,6 +169,14 @@ const CharacterSheet: React.FC = () => {
         [section]: value,
       }));
     }
+  };
+
+  const handleClassChange = (e: ChangeEvent<HTMLSelectElement>) => {
+    const selectedClass = classOptions.find(option => option.name === e.target.value);
+    setCharacter(prev => ({
+      ...prev,
+      class: selectedClass ? selectedClass.name : ""
+    }));
   };
 
   const saveCharacter = () => {
@@ -208,7 +232,6 @@ const CharacterSheet: React.FC = () => {
       ))}
     </div>
   );
-  
 
   const renderSection = <T extends Record<string, number>>(title: string, items: T, icons: { [key: string]: string }) => (
     <div className="mb-4">
@@ -280,14 +303,18 @@ const CharacterSheet: React.FC = () => {
           }
         />
         <div className="flex items-center space-x-2">
-          <input
+          <select
             className="p-2 border rounded"
-            placeholder="CLASS"
             value={character.class}
-            onChange={(e) =>
-              handleInputChange("class", "class", e.target.value)
-            }
-          />
+            onChange={handleClassChange}
+          >
+            <option value="">Select Class</option>
+            {classOptions.map((option) => (
+              <option key={option.name} value={option.name}>
+                {option.name}
+              </option>
+            ))}
+          </select>
           <button
             className="p-2 bg-blue-500 text-white rounded"
             onClick={saveCharacter}
@@ -296,6 +323,17 @@ const CharacterSheet: React.FC = () => {
           </button>
         </div>
       </div>
+
+      {character.class && (
+        <div className="mb-4 flex items-center">
+          <img
+            src={classOptions.find(option => option.name === character.class)?.icon}
+            alt={character.class}
+            className="w-8 h-8 mr-2"
+          />
+          <span>{character.class}</span>
+        </div>
+      )}
 
       <div className="grid grid-cols-2 gap-4">
         <div>{renderSkillTree()}</div>
