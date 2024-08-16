@@ -69,16 +69,11 @@ const defaultCharacter: Character = {
   name: "",
   class: "",
   skills: {
-    A1: [false, false],
-    A2: [false, false, false],
-    B1: [false, false],
-    B2: [false, false, false],
-    C1: [false, false],
-    C2: [false, false, false],
-    D1: [false, false],
-    D2: [false, false, false],
-    E1: [false, false],
-    E2: [false, false, false],
+    A: [false, false],
+    B: [false, false],
+    C: [false, false],
+    D: [false, false],
+    E: [false, false],
   },
   materials: {
     escamas: 0,
@@ -110,6 +105,7 @@ const defaultCharacter: Character = {
   notes: "",
 };
 
+
 const CharacterSheet: React.FC = () => {
   const [character, setCharacter] = useState<Character>(defaultCharacter);
   const [characters, setCharacters] = useState<Character[]>([]);
@@ -131,7 +127,7 @@ const CharacterSheet: React.FC = () => {
   const handleInputChange = (
     section: keyof Character,
     key: string,
-    value: string | number | boolean,
+    value: boolean,
     index?: number
   ) => {
     if (section === "skills" && index !== undefined) {
@@ -140,7 +136,7 @@ const CharacterSheet: React.FC = () => {
         skills: {
           ...prev.skills,
           [key]: prev.skills[key].map((item, i) =>
-            i === index ? (value as boolean) : item
+            i === index ? (value ? item : "") : item
           ),
         },
       }));
@@ -159,6 +155,7 @@ const CharacterSheet: React.FC = () => {
       }));
     }
   };
+  
 
   const saveCharacter = () => {
     const newCharacters = [...characters, character];
@@ -194,25 +191,26 @@ const CharacterSheet: React.FC = () => {
       {Object.entries(character.skills).map(([key, values]) => (
         <div key={key} className="mb-2">
           <div className="font-semibold">{key}</div>
-          <div className="flex space-x-2">
+          <div className="flex flex-col space-y-2">
             {values.map((value, index) => (
-              <label key={index} className="flex items-center">
+              <div key={index} className="flex items-center">
                 <input
                   type="checkbox"
-                  checked={value}
+                  checked={!!value}
                   onChange={() =>
                     handleInputChange("skills", key, !value, index)
                   }
                   className="mr-2"
                 />
-                {key} {index + 1}
-              </label>
+                <span>{value || `Checkbox ${index + 1}`}</span>
+              </div>
             ))}
           </div>
         </div>
       ))}
     </div>
   );
+  
 
   const renderSection = <T extends Record<string, number>>(title: string, items: T, icons: { [key: string]: string }) => (
     <div className="mb-4">
