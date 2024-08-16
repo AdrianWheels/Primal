@@ -5,14 +5,12 @@ import sangreIcon from './iconos/sangre.png';
 import zimaIcon from './iconos/zima.png';
 import iodeIcon from './iconos/iode.png';
 import kobaureoIcon from './iconos/kobaureo.png';
-
 import nilleaIcon from './iconos/nillea.png';
 import tamaneiIcon from './iconos/tamanei.png';
 import almalexiaIcon from './iconos/almalexia.png';
 import meliusIcon from './iconos/melius.png';
 import anthemonIcon from './iconos/anthemon.png';
 import skellicorniaIcon from './iconos/skellicornia.png';
-
 import fuegoIcon from './iconos/fuego.png';
 import cuernoIcon from './iconos/cuerno.png';
 import coralIcon from './iconos/coral.png';
@@ -23,9 +21,8 @@ import plumaIcon from './iconos/pluma.png';
 import venenoIcon from './iconos/veneno.png';
 import hieloIcon from './iconos/hielo.png';
 
-
 interface Skills {
-  [key: string]: string[];
+  [key: string]: boolean[];
 }
 
 interface Materials extends Record<string, number> {
@@ -72,16 +69,16 @@ const defaultCharacter: Character = {
   name: "",
   class: "",
   skills: {
-    A1: ["", ""],
-    A2: ["", "", ""],
-    B1: ["", ""],
-    B2: ["", "", ""],
-    C1: ["", ""],
-    C2: ["", "", ""],
-    D1: ["", ""],
-    D2: ["", "", ""],
-    E1: ["", ""],
-    E2: ["", "", ""],
+    A1: [false, false],
+    A2: [false, false, false],
+    B1: [false, false],
+    B2: [false, false, false],
+    C1: [false, false],
+    C2: [false, false, false],
+    D1: [false, false],
+    D2: [false, false, false],
+    E1: [false, false],
+    E2: [false, false, false],
   },
   materials: {
     escamas: 0,
@@ -134,7 +131,7 @@ const CharacterSheet: React.FC = () => {
   const handleInputChange = (
     section: keyof Character,
     key: string,
-    value: string | number,
+    value: string | number | boolean,
     index?: number
   ) => {
     if (section === "skills" && index !== undefined) {
@@ -143,7 +140,7 @@ const CharacterSheet: React.FC = () => {
         skills: {
           ...prev.skills,
           [key]: prev.skills[key].map((item, i) =>
-            i === index ? (value as string) : item
+            i === index ? (value as boolean) : item
           ),
         },
       }));
@@ -199,15 +196,17 @@ const CharacterSheet: React.FC = () => {
           <div className="font-semibold">{key}</div>
           <div className="flex space-x-2">
             {values.map((value, index) => (
-              <input
-                key={index}
-                type="text"
-                value={value}
-                onChange={(e) =>
-                  handleInputChange("skills", key, e.target.value, index)
-                }
-                className="w-14 p-1 border rounded text-center"
-              />
+              <label key={index} className="flex items-center">
+                <input
+                  type="checkbox"
+                  checked={value}
+                  onChange={() =>
+                    handleInputChange("skills", key, !value, index)
+                  }
+                  className="mr-2"
+                />
+                {key} {index + 1}
+              </label>
             ))}
           </div>
         </div>
