@@ -26,7 +26,7 @@ const CampaignChapters: React.FC = () => {
 
   return (
     <div className="mb-4">
-      <h3 className="font-bold mb-2 text-white bg-black p-2 text-center">Campaign Chapters</h3>
+      <h3 className="font-leander   font-bold mb-2 text-white bg-black p-2 text-center">Campaign Chapters</h3>
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-11 gap-4 p-2 bg-gray-200 rounded-lg">
         {chapters.map((chapter) => (
           <label

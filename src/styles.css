@@ -2,7 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+@font-face {
+    font-family: 'Leander';
+    src: url('/public/fonts/Leander.ttf') format('ttff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Astounding news';
+    src: url('/public/fonts/Astounding\ news.ttf') format('ttff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Astounding news', sans-serif;
+  }
+  
+  .App {
+    font-family: 'Astounding news', sans-serif; 
+    text-align: center;
+  }
+  
+  
