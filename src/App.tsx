@@ -11,14 +11,14 @@ const App = () => {
     <Router>
       <div className="min-h-screen flex flex-col">
         {/* Logo visible arriba */}
-        <div className="bg-black p-4 flex justify-center md:hidden">
+        <div className="bg-black p-4 flex justify-center md:hidden ">
           <img src={logo} alt="Logo" className="h-12" />
         </div>
         
         {/* Barra de navegación sticky */}
         <nav className="bg-black text-white p-4 shadow-md sticky top-0 z-40">
           <div className="relative flex items-center justify-between">
-            <ul className="flex space-x-4 md:space-x-8">
+            <ul className="flex space-x-4 md:space-x-8 z-50">
               <li>
                 <Link to="/" className="hover:text-yellow-500">Home</Link>
               </li>
