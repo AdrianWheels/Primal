@@ -22,6 +22,7 @@ import mamuraakIcon from './iconos/mamuraak.png';
 import nagarjasIcon from './iconos/nagarjas.png';
 import zekalithIcon from './iconos/zekalith.png';
 import xitherosIcon from './iconos/xitheros.png';
+import taraskaIcon from './iconos/taraska.png';
 
 const trophies = [
   { name: 'Vyraxen', icon: vyraxenIcon },
@@ -34,6 +35,7 @@ const trophies = [
   { name: 'Sirkaaj', icon: sirkaajIcon },
   { name: 'Pazis', icon: pazisIcon },
   { name: 'Zekath', icon: zekathIcon },
+  { name: 'Taraska', icon: taraskaIcon },
   { name: 'Kharja', icon: kharjaIcon },
   { name: 'Dygorax', icon: dygoraxIcon },
   { name: 'Orouxen', icon: orouxenIcon },
@@ -66,7 +68,6 @@ const Trophies: React.FC = () => {
 
   return (
     <div className="bg-white p-4 rounded-lg shadow-md">
-      <h2 className="text-lg font-bold mb-4">Trophies</h2>
       <div className="grid grid-cols-3 gap-4">
         {trophies.map((trophy, index) => (
           <div key={index} className="flex items-center">

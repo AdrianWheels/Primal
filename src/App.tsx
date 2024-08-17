@@ -1,20 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import CharacterSheet from "./character-sheet-component";
+import CharacterSheet from "./CharacterSheet";
+import Shop from "./Tienda";
 import MonsterLifeTracker from "./monster-life-tracker";
-import CampaignTracker from "./CampaignTracker"; // Importa el nuevo componente
+import CampaignTracker from "./CampaignTracker";
 import "./style/tailwind.css";
-import logo from "./iconos/logo blanco.png"; // Asegúrate de que la ruta sea correcta
+import logo from "./iconos/logo blanco.png";
+import Background from './Background';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <Router>
       <div className="min-h-screen flex flex-col">
-        {/* Logo visible arriba */}
-        <div className="bg-black p-4 flex justify-center md:hidden ">
+        <Background />
+        <div className="bg-black p-4 flex justify-center md:hidden">
           <img src={logo} alt="Logo" className="h-12" />
         </div>
-        
+
         {/* Barra de navegación sticky */}
         <nav className="bg-black text-white p-4 shadow-md sticky top-0 z-40">
           <div className="relative flex items-center justify-between">
@@ -39,11 +41,12 @@ const App = () => {
         </nav>
 
         <main className="flex-grow p-4">
+          
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/character-sheet" element={<CharacterSheet />} />
             <Route path="/monster-life-tracker" element={<MonsterLifeTracker />} />
-            <Route path="/campaign-tracker" element={<CampaignTracker />} />
+            <Route path="/campaign-tracker" element={<CampaignTracker />} />            
           </Routes>
         </main>
       </div>
@@ -51,7 +54,7 @@ const App = () => {
   );
 };
 
-const Home = () => (
+const Home: React.FC = () => (
   <div>
     <h2 className="text-2xl font-bold">Home</h2>
   </div>

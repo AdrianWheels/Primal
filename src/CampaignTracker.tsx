@@ -5,6 +5,9 @@ import Quests from './Quests';
 import Achievements from './Achievements';
 import HuntersTrial from './HuntersTrial';
 
+import ForgeIcon from './iconos/forja.png';
+import HierbaIcon from './iconos/hierba.png';
+
 const CampaignTracker: React.FC = () => {
   const [exportedData, setExportedData] = useState<string | null>(null);
 
