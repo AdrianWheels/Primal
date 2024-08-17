@@ -1,14 +1,54 @@
 import React, { useState, useEffect } from 'react';
 
+// Importar imágenes de trofeos
+import vyraxenIcon from './iconos/vyraxen.png';
+import toramatIcon from './iconos/toramat.png';
+import korowonIcon from './iconos/korowon.png';
+import felaxirIcon from './iconos/felaxir.png';
+import ozewIcon from './iconos/ozew.png';
+import huromIcon from './iconos/hurom.png';
+import hydarIcon from './iconos/hydar.png';
+import sirkaajIcon from './iconos/sirkaaj.png';
+import pazisIcon from './iconos/pazis.png';
+import zekathIcon from './iconos/zekath.png';
+import kharjaIcon from './iconos/kharja.png';
+import dygoraxIcon from './iconos/dygorax.png';
+import orouxenIcon from './iconos/orouxen.png';
+import morkraasIcon from './iconos/morkraas.png';
+import jekorosIcon from './iconos/jekoros.png';
+import tarraguaIcon from './iconos/tarragua.png';
+import reikalIcon from './iconos/reikal.png';
+import mamuraakIcon from './iconos/mamuraak.png';
+import nagarjasIcon from './iconos/nagarjas.png';
+import zekalithIcon from './iconos/zekalith.png';
+import xitherosIcon from './iconos/xitheros.png';
+
 const trophies = [
-  'Vyraxen', 'Toramat', 'Korowon', 'Felaxir', 'Ozew', 'Hurom', 'Hydar',
-  'Sirkaaj', 'Pazis', 'Zekath', 'Kharja', 'Dygorax', 'Orouxen', 'Morkraas',
-  'Jekoros', 'Tarragua', 'Reikal', 'Mamuraak', 'Nagarjas', 'Zekalith', 'Xitheros'
+  { name: 'Vyraxen', icon: vyraxenIcon },
+  { name: 'Toramat', icon: toramatIcon },
+  { name: 'Korowon', icon: korowonIcon },
+  { name: 'Felaxir', icon: felaxirIcon },
+  { name: 'Ozew', icon: ozewIcon },
+  { name: 'Hurom', icon: huromIcon },
+  { name: 'Hydar', icon: hydarIcon },
+  { name: 'Sirkaaj', icon: sirkaajIcon },
+  { name: 'Pazis', icon: pazisIcon },
+  { name: 'Zekath', icon: zekathIcon },
+  { name: 'Kharja', icon: kharjaIcon },
+  { name: 'Dygorax', icon: dygoraxIcon },
+  { name: 'Orouxen', icon: orouxenIcon },
+  { name: 'Morkraas', icon: morkraasIcon },
+  { name: 'Jekoros', icon: jekorosIcon },
+  { name: 'Tarragua', icon: tarraguaIcon },
+  { name: 'Reikal', icon: reikalIcon },
+  { name: 'Mamuraak', icon: mamuraakIcon },
+  { name: 'Nagarjas', icon: nagarjasIcon },
+  { name: 'Zekalith', icon: zekalithIcon },
+  { name: 'Xitheros', icon: xitherosIcon },
 ];
 
 const Trophies: React.FC = () => {
   const [checkedTrophies, setCheckedTrophies] = useState<string[]>(() => {
-    // Recuperar los datos del localStorage al cargar la página
     const savedTrophies = localStorage.getItem('checkedTrophies');
     return savedTrophies ? JSON.parse(savedTrophies) : [];
   });
@@ -21,7 +61,6 @@ const Trophies: React.FC = () => {
   };
 
   useEffect(() => {
-    // Guardar los datos en localStorage cada vez que `checkedTrophies` cambie
     localStorage.setItem('checkedTrophies', JSON.stringify(checkedTrophies));
   }, [checkedTrophies]);
 
@@ -31,12 +70,12 @@ const Trophies: React.FC = () => {
       <div className="grid grid-cols-3 gap-4">
         {trophies.map((trophy, index) => (
           <div key={index} className="flex items-center">
-            <img src={`path-to-icon/${trophy.toLowerCase()}.png`} alt={trophy} className="w-8 h-8 mr-2"/>
-            <span>{trophy}</span>
+            <img src={trophy.icon} alt={trophy.name} className="w-8 h-8 mr-2"/>
+            <span>{trophy.name}</span>
             <input
               type="checkbox"
-              checked={checkedTrophies.includes(trophy)}
-              onChange={() => handleCheckboxChange(trophy)}
+              checked={checkedTrophies.includes(trophy.name)}
+              onChange={() => handleCheckboxChange(trophy.name)}
               className="ml-auto"
             />
           </div>

@@ -1,0 +1,471 @@
+{
+    "Fire Forge": {
+      "Flame Tongue": {
+        "1": ["Bones", "Blood"],
+        "2": ["Blood", "Zima"],
+        "3": ["Bones", "Blood"]
+      },
+      "Ashbringer": {
+        "1": ["Bones", "Iride"],
+        "2": ["Blood", "Iride"],
+        "3": ["Bones", "Blood"]
+      },
+      "Burning Stone": {
+        "1": ["Blood", "Blood"],
+        "2": ["Scales", "Blood"],
+        "3": ["Blood", "Iride"]
+      },
+      "Volcano": {
+        "1": ["Blood", "Iride"],
+        "2": ["Blood", "Iride"],
+        "3": ["Bones", "Blood"]
+      },
+      "Dragon Wings": {
+        "1": ["Scales", "Blood"],
+        "2": ["Scales", "Blood"],
+        "3": ["Blood", "Iride"]
+      },
+      "Ignis": {
+        "1": ["Blood", "Iride"],
+        "2": ["Bones", "Blood"],
+        "3": ["Scales", "Blood"]
+      },
+      "Red Scale Helm": {
+        "1": ["Scales", "Blood"],
+        "2": ["Bones", "Blood"],
+        "3": ["Scales", "Blood"]
+      },
+      "Red Scale Armor": {
+        "1": ["Scales", "Blood"],
+        "2": ["Scales", "Blood"],
+        "3": ["Scales", "Blood"]
+      },
+      "Woltyar Gauntlet": {
+        "1": ["Scales", "Blood"],
+        "2": ["Scales", "Blood"],
+        "3": ["Scales", "Kobauero"]
+      },
+      "Lava Buckler": {
+        "1": ["Scales", "Kobauero"],
+        "2": ["Blood", "Zima"],
+        "3": ["Bones", "Blood"]
+      }
+    },
+    "Coral Forge": {
+      "Bloodreef": {
+        "1": ["Bones", "Zima"],
+        "2": ["Zima", "Zima"],
+        "3": ["Zima", "Zima"]
+      },
+      "Abyss": {
+        "1": ["Scales", "Zima"],
+        "2": ["Scales", "Zima"],
+        "3": ["Scales", "Zima"]
+      },
+      "Typhoon": {
+        "1": ["Scales", "Zima"],
+        "2": ["Zima", "Kobauero"],
+        "3": ["Bones", "Zima"]
+      },
+      "Ocean Shield": {
+        "1": ["Scales", "Kobauro"],
+        "2": ["Scales", "Zima"],
+        "3": ["Bones", "Zima"]
+      },
+      "Tidal Waves": {
+        "1": ["Bones", "Bones"],
+        "2": ["Scales", "Zima"],
+        "3": ["Scales", "Kobauero"]
+      },
+      "Ocean Gun": {
+        "1": ["Zima", "Zima"],
+        "2": ["Zima", "Zima"],
+        "3": ["Blood", "Zima"]
+      },
+      "Reefbound Helm": {
+        "1": ["Scales", "Zima"],
+        "2": ["Zima", "Zima"],
+        "3": ["Bones", "Zima"]
+      },
+      "Reefbound Plate": {
+        "1": ["Bones", "Zima"],
+        "2": ["Scales", "Bones"],
+        "3": ["Bones", "Zima"]
+      },
+      "Coral Trident": {
+        "1": ["Bones", "Zima"],
+        "2": ["Bones", "Bones"],
+        "3": ["Scales", "Zima"]
+      },
+      "Gauntlet of Shell Blade": {
+        "1": ["Bones", "Zima"],
+        "2": ["Scales", "Zima"],
+        "3": ["Scales", "Zima"]
+      }
+    },
+    "Horn Forge": {
+      "Dragon Claw": {
+        "1": ["Bones", "Scales"],
+        "2": ["Bones", "Kobauero"],
+        "3": ["Bones", "Kobauero"]
+      },
+      "Tuskbow": {
+        "1": ["Bones", "Bones"],
+        "2": ["Bones", "Kobauero"],
+        "3": ["Bones", "Kobauero"]
+      },
+      "Shellstone": {
+        "1": ["Bones", "Scales"],
+        "2": ["Bones", "Kobauero"],
+        "3": ["Bones", "Kobauero"]
+      },
+      "Horn Wall": {
+        "1": ["Bones", "Bones"],
+        "2": ["Bones", "Kobauero"],
+        "3": ["Kobauero", "Kobauero"]
+      },
+      "Dancing Bones": {
+        "1": ["Scales", "Scales"],
+        "2": ["Bones", "Bones"],
+        "3": ["Bones", "Kobauero"]
+      },
+      "Tiger": {
+        "1": ["Bones", "Scales"],
+        "2": ["Kobauero", "Kobauero"],
+        "3": ["Bones", "Kobauero"]
+      },
+      "Spined Helm": {
+        "1": ["Bones", "Bones"],
+        "2": ["Bones", "Kobauero"],
+        "3": ["Bones", "Kobauero"]
+      },
+      "Spined Armor": {
+        "1": ["Bones", "Scales"],
+        "2": ["Bones", "Bones"],
+        "3": ["Bones", "Kobauero"]
+      },
+      "Big Jaws": {
+        "1": ["Bones", "Scales"],
+        "2": ["Bones", "Bones"],
+        "3": ["Kobauero", "Kobauero"]
+      },
+      "Skeletal Spear": {
+        "1": ["Bones", "Scales"],
+        "2": ["Kobauero", "Kobauero"],
+        "3": ["Bones", "Bones"]
+      }
+    },
+    "Crystal Forge": {
+      "Shimmerblade": {
+        "1": ["Scales", "Iride"],
+        "2": ["Scales", "Iride"],
+        "3": ["Scales", "Scales"]
+      },
+      "Death Sparkle": {
+        "1": ["Bones", "Zima"],
+        "2": ["Scales", "Zima"],
+        "3": ["Scales", "Iride"]
+      },
+      "Radiant Stone": {
+        "1": ["Scales", "Zima"],
+        "2": ["Zima", "Iride"],
+        "3": ["Scales", "Zima"]
+      },
+      "Darkstone Shield": {
+        "1": ["Iride", "Iride"],
+        "2": ["Iride", "Zima"],
+        "3": ["Scales", "Kobauro"]
+      },
+      "Shimmering Star": {
+        "1": ["Scales", "Zima"],
+        "2": ["Blood", "Iride"],
+        "3": ["Bones", "Blood"]
+      },
+      "Amethyst": {
+        "1": ["Bones", "Scales"],
+        "2": ["Bones", "Zima"],
+        "3": ["Scales", "Kobauro"]
+      },
+      "Crystal Helm": {
+        "1": ["Scales", "Zima"],
+        "2": ["Scales", "Iride"],
+        "3": ["Scales", "Iride"]
+      },
+      "Crystal Armor": {
+        "1": ["Iride", "Iride"],
+        "2": ["Scales", "Zima"],
+        "3": ["Iride", "Kobauro"]
+      },
+      "Shimmering Boots": {
+        "1": ["Iride", "Zima"],
+        "2": ["Scales", "Iride"],
+        "3": ["Scales", "Zima"]
+      },
+      "Crystal Spear": {
+        "1": ["Bones", "Iride"],
+        "2": ["Scales", "Zima"],
+        "3": ["Bones", "Kobauro"]
+      }
+    },
+    "Thunder Forge": {
+      "Iridian Sunder": {
+        "1": ["Blood", "Iride"],
+        "2": ["Blood", "Iride"],
+        "3": ["Blood", "Iride"]
+      },
+      "Lightning Bow": {
+        "1": ["Scales", "Zima"],
+        "2": ["Iride", "Scales"],
+        "3": ["Blood", "Zima"]
+      },
+      "Skullshock": {
+        "1": ["Iride", "Zima"],
+        "2": ["Blood", "Iride"],
+        "3": ["Scales", "Blood"]
+      },
+      "Thundercore": {
+        "1": ["Scales", "Iride"],
+        "2": ["Scales", "Zima"],
+        "3": ["Scales", "Blood"]
+      },
+      "Voltrage": {
+        "1": ["Scales", "Zima"],
+        "2": ["Blood", "Iride"],
+        "3": ["Blood", "Iride"]
+      },
+      "Electroblast": {
+        "1": ["Scales", "Blood"],
+        "2": ["Blood", "Scales"],
+        "3": ["Blood", "Zima"]
+      },
+      "Thunder Helm": {
+        "1": ["Blood", "Iride"],
+        "2": ["Scales", "Iride"],
+        "3": ["Blood", "Iride"]
+      },
+      "Thunder Armor": {
+        "1": ["Blood", "Zima"],
+        "2": ["Blood", "Iride"],
+        "3": ["Scales", "Blood"]
+      },
+      "Electric Whip": {
+        "1": ["Bones", "Iride"],
+        "2": ["Blood", "Zima"],
+        "3": ["Blood", "Zima"]
+      },
+      "Electric Dagger": {
+        "1": ["Blood", "Blood"],
+        "2": ["Blood", "Iride"],
+        "3": ["Blood", "Iride"]
+      }
+    },
+    "Metal Forge": {
+      "Aurean Blade": {
+        "1": ["Iride", "Kobauro"],
+        "2": ["Kobauero"],
+        "3": ["Iride", "Kobauero"]
+      },
+      "Iron Bow": {
+        "1": ["Kobauro", "Kobauro"],
+        "2": ["Bones", "Kobauero"],
+        "3": ["Iride", "Kobauero"]
+      },
+      "Rawstone": {
+        "1": ["Iride", "Kobauro"],
+        "2": ["Iride", "Kobauero"],
+        "3": ["Iride", "Kobauero"]
+      },
+      "Brass Wall": {
+        "1": ["Iride", "Kobauro"],
+        "2": ["Bones", "Kobauero"],
+        "3": ["Kobauero", "Kobauero"]
+      },
+      "Moonblades": {
+        "1": ["Scales", "Kobauro"],
+        "2": ["Kobauero"],
+        "3": ["Iride", "Zima"]
+      },
+      "Mothergun": {
+        "1": ["Iride", "Kobauro"],
+        "2": ["Kobauero"],
+        "3": ["Iride", "Kobauero"]
+      },
+      "Iron Helm": {
+        "1": ["Kobauro", "Kobauro"],
+        "2": ["Iride", "Kobauero"],
+        "3": ["Iride", "Kobauero"]
+      },
+      "Iron Plate": {
+        "1": ["Scales", "Kobauro"],
+        "2": ["Kobauero"],
+        "3": ["Blood", "Kobauero"]
+      },
+      "Explosive": {
+        "1": ["Iride", "Kobauro"],
+        "2": ["Iride", "Iride"],
+        "3": ["Blood", "Iride"]
+      },
+      "Iron Greaves": {
+        "1": ["Kobauro", "Kobauro"],
+        "2": ["Kobauero"],
+        "3": ["Iride", "Kobauero"]
+      }
+    },
+    "Feather Forge": {
+      "Windblade": {
+        "1": ["Bones", "Zima"],
+        "2": ["Bones", "Zima"],
+        "3": ["Scales", "Zima"]
+      },
+      "Airswan": {
+        "1": ["Scales", "Kobauro"],
+        "2": ["Bones", "Zima"],
+        "3": ["Bones", "Zima"]
+      },
+      "Earthshaker": {
+        "1": ["Bones", "Iride"],
+        "2": ["Scales", "Zima"],
+        "3": ["Bones", "Iride"]
+      },
+      "Shard": {
+        "1": ["Bones", "Kobauro"],
+        "2": ["Scales", "Zima"],
+        "3": ["Bones", "Zima"]
+      },
+      "Twinblade": {
+        "1": ["Zima", "Kobauro"],
+        "2": ["Scales", "Zima"],
+        "3": ["Zima", "Kobauro"]
+      },
+      "Winged Cannon": {
+        "1": ["Bones", "Zima"],
+        "2": ["Bones", "Zima"],
+        "3": ["Bones", "Zima"]
+      },
+      "Totemic Helm": {
+        "1": ["Scales", "Zima"],
+        "2": ["Bones", "Zima"],
+        "3": ["Scales", "Zima"]
+      },
+      "Totemic Plate": {
+        "1": ["Bones", "Zima"],
+        "2": ["Scales", "Zima"],
+        "3": ["Bones", "Zima"]
+      },
+      "Feathered Coat": {
+        "1": ["Scales", "Kobauro"],
+        "2": ["Bones", "Kobauro"],
+        "3": ["Scales", "Zima"]
+      },
+      "Boomerang": {
+        "1": ["Bones", "Iride"],
+        "2": ["Zima", "Zima"],
+        "3": ["Bones", "Iride"]
+      }
+    },
+    "Venom Forge": {
+      "Kobra": {
+        "1": ["Scales", "Blood"],
+        "2": ["Blood", "Iride"],
+        "3": ["Blood", "Iride"]
+      },
+      "Spider Needle": {
+        "1": ["Blood", "Iride"],
+        "2": ["Scales", "Blood"],
+        "3": ["Scales", "Iride"]
+      },
+      "Dragon Bane": {
+        "1": ["Scales", "Blood"],
+        "2": ["Blood", "Iride"],
+        "3": ["Scales", "Blood"]
+      },
+      "Serpent Shield": {
+        "1": ["Scales", "Blood"],
+        "2": ["Blood", "Iride"],
+        "3": ["Scales", "Blood"]
+      },
+      "Vipers": {
+        "1": ["Blood", "Iride"],
+        "2": ["Blood", "Iride"],
+        "3": ["Scales", "Iride"]
+      },
+      "Reptile": {
+        "1": ["Scales", "Blood"],
+        "2": ["Scales", "Blood"],
+        "3": ["Scales", "Iride"]
+      },
+      "Ironleaf Helm": {
+        "1": ["Scales", "Blood"],
+        "2": ["Scales", "Blood"],
+        "3": ["Scales", "Blood"]
+      },
+      "Ironleaf Armor": {
+        "1": ["Scales", "Blood"],
+        "2": ["Scales", "Blood"],
+        "3": ["Scales", "Blood"]
+      },
+      "Bloodseeker": {
+        "1": ["Blood", "Blood"],
+        "2": ["Scales", "Blood"],
+        "3": ["Scales", "Blood"]
+      },
+      "Blackspin": {
+        "1": ["Scales", "Scales"],
+        "2": ["Scales", "Blood"],
+        "3": ["Scales", "Blood"]
+      }
+    },
+    "Ice Forge": {
+      "Frostblade": {
+        "1": ["Iride", "Kobauro"],
+        "2": ["Bones", "Kobauro"],
+        "3": ["Bones", "Kobauro"]
+      },
+      "Northlaw": {
+        "1": ["Bones", "Kobauro"],
+        "2": ["Bones", "Kobauro"],
+        "3": ["Blood", "Kobauro"]
+      },
+      "Froljark": {
+        "1": ["Scales", "Kobauro"],
+        "2": ["Bones", "Scales"],
+        "3": ["Iride", "Kobauro"]
+      },
+      "Icewall": {
+        "1": ["Iride", "Kobauro"],
+        "2": ["Bones", "Kobauro"],
+        "3": ["Iride", "Kobauro"]
+      },
+      "Ice Wings": {
+        "1": ["Bones", "Zima"],
+        "2": ["Bones", "Iride"],
+        "3": ["Bones", "Blood"]
+      },
+      "Frost Gun": {
+        "1": ["Iride", "Kobauro"],
+        "2": ["Bones", "Iride"],
+        "3": ["Bones", "Blood"]
+      },
+      "Frost Helm": {
+        "1": ["Bones", "Kobauro"],
+        "2": ["Iride", "Kobauro"],
+        "3": ["Bones", "Kobauro"]
+      },
+      "Frost Armor": {
+        "1": ["Bones", "Iride"],
+        "2": ["Bones", "Kobauro"],
+        "3": ["Iride", "Kobauro"]
+      },
+      "Frozen Boots": {
+        "1": ["Iride", "Kobauro"],
+        "2": ["Bones", "Kobauro"],
+        "3": ["Bones", "Kobauro"]
+      },
+      "Wristbow": {
+        "1": ["Iride", "Zima"],
+        "2": ["Iride", "Kobauro"],
+        "3": ["Iride", "Kobauro"]
+      }
+    }
+  }
+  

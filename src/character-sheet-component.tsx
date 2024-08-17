@@ -3,7 +3,7 @@ import escamasIcon from './iconos/escamas.png';
 import huesosIcon from './iconos/huesos.png';
 import sangreIcon from './iconos/sangre.png';
 import zimaIcon from './iconos/zima.png';
-import iodeIcon from './iconos/iode.png';
+import irideIcon from './iconos/iride.png';
 import kobaureoIcon from './iconos/kobaureo.png';
 import nilleaIcon from './iconos/nillea.png';
 import tamaneiIcon from './iconos/tamanei.png';
@@ -37,7 +37,7 @@ interface Materials extends Record<string, number> {
   huesos: number;
   sangre: number;
   zima: number;
-  iode: number;
+  iride: number;
   kobaureo: number;
 }
 
@@ -87,7 +87,7 @@ const defaultCharacter: Character = {
     huesos: 0,
     sangre: 0,
     zima: 0,
-    iode: 0,
+    iride: 0,
     kobaureo: 0,
   },
   plants: {
@@ -266,7 +266,7 @@ const CharacterSheet: React.FC = () => {
     huesos: huesosIcon,
     sangre: sangreIcon,
     zima: zimaIcon,
-    iode: iodeIcon,
+    iride: irideIcon,
     kobaureo: kobaureoIcon,
   };
 
