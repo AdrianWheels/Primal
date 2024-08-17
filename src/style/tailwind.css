@@ -7,14 +7,14 @@
 
 @font-face {
     font-family: 'Leander';
-    src: url('/public/fonts/Leander.ttf') format('truetype');
+    src: url('/fonts/Leander.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'Astounding news';
-    src: url('/public/fonts/Astounding\ news.ttf') format('truetype');
+    src: url('/fonts/Astounding\ news.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
