@@ -20,11 +20,6 @@ export interface Skills {
     Albalacea: number; 
     Mellis: number;
     Saelicornia: number;
-<<<<<<< HEAD
-    Tarmaret: number;
-    Anthemon: number;
-=======
->>>>>>> d81dd43de374df374a984dc35f8c22a2f226ae2e
   }
   
   export interface Elements {
@@ -56,7 +51,3 @@ export interface Skills {
     elements: Elements;
     notes: string;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> d81dd43de374df374a984dc35f8c22a2f226ae2e
