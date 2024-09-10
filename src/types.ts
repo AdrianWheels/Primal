@@ -13,13 +13,27 @@ export interface Skills {
     Kobaureo: number;
   }
   
-  export interface Plants {
+ export interface Plants {
     [key: string]: number;
     Nillea: number;
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
     Tamaret: number; 
     Albalacea: number; 
     Mellis: number;
     Saelicornia: number; 
+<<<<<<< Updated upstream
+=======
+    Tarmaret: number;
+    Albalacea: number;
+    Mellis: number;
+    Anthemon: number;
+    Saelicornia: number;
+>>>>>>> 1e883948ff60f0475a348fe62444df60b014a9da
+=======
+>>>>>>> Stashed changes
   }
   
   export interface Elements {
@@ -51,3 +65,10 @@ export interface Skills {
     elements: Elements;
     notes: string;
   }
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 1e883948ff60f0475a348fe62444df60b014a9da
+=======
+>>>>>>> Stashed changes
