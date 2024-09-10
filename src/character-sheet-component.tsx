@@ -45,7 +45,11 @@ interface Plants extends Record<string, number> {
   nillea: number;
   tamaret: number; 
   albalacea: number;
+<<<<<<< HEAD
   mellis: number;
+=======
+  mellis: number;   
+>>>>>>> d81dd43de374df374a984dc35f8c22a2f226ae2e
   anthemon: number;
   saelicornia: number;
 }
@@ -93,7 +97,11 @@ const defaultCharacter: Character = {
   plants: {
     nillea: 0,
     tamaret: 0,
+<<<<<<< HEAD
     albalacea: 0,
+=======
+    albalacea: 0, 
+>>>>>>> d81dd43de374df374a984dc35f8c22a2f226ae2e
     mellis: 0,
     anthemon: 0,
     saelicornia: 0
