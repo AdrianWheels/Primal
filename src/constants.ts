@@ -46,25 +46,11 @@ export const defaultCharacter = {
   },
   plants: {
     Nillea: 0,
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
     Tamaret: 0, 
     Albalacea: 0, 
     Mellis: 0,
     Anthemon: 0,
-    Saelicornia: 0, 
-<<<<<<< Updated upstream
-=======
-    Tamanei: 0,
-    Albalacea: 0,
-    Mellis: 0,
-    Anthemon: 0,
-    Saelicornia: 0,
->>>>>>> 1e883948ff60f0475a348fe62444df60b014a9da
-=======
->>>>>>> Stashed changes
+    Saelicornia: 0
   },
   elements: {
     Fire: 0,
@@ -100,25 +86,11 @@ export const materialIcons = {
 
 export const plantIcons = {
   Nillea: NilleaIcon,
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
   Tamaret: TamaretIcon, 
   Albalacea: AlbalaceaIcon, 
   Mellis: MellisIcon, 
   Anthemon: AnthemonIcon,
-  Saelicornia: SaelicorniaIcon,
-<<<<<<< Updated upstream
-=======
-  Tamanei: TamaneiIcon,
-  Albalacea: AlmalexiaIcon,
-  Mellis: MeliusIcon,
-  Anthemon: AnthemonIcon,
-  Saelicornia: SkellicorniaIcon,
->>>>>>> 1e883948ff60f0475a348fe62444df60b014a9da
-=======
->>>>>>> Stashed changes
+  Saelicornia: SaelicorniaIcon
 };
 
 export const elementIcons = {

@@ -43,21 +43,9 @@ interface Materials extends Record<string, number> {
 
 interface Plants extends Record<string, number> {
   nillea: number;
-<<<<<<< Updated upstream
-<<<<<<< HEAD
   tamaret: number; 
-  albalacea: number;
-  mellis: number; 
-=======
-  tamaret: number;
   albalacea: number;
   mellis: number;
->>>>>>> 1e883948ff60f0475a348fe62444df60b014a9da
-=======
-  tamaret: number; 
-  albalacea: number;
-  mellis: number; 
->>>>>>> Stashed changes
   anthemon: number;
   saelicornia: number;
 }
@@ -104,21 +92,11 @@ const defaultCharacter: Character = {
   },
   plants: {
     nillea: 0,
-<<<<<<< Updated upstream
-<<<<<<< HEAD
     tamaret: 0,
-    albalacea: 0, 
-=======
-    tamanei: 0,
     albalacea: 0,
->>>>>>> 1e883948ff60f0475a348fe62444df60b014a9da
-=======
-    tamaret: 0,
-    albalacea: 0, 
->>>>>>> Stashed changes
     mellis: 0,
     anthemon: 0,
-    saelicornia: 0,
+    saelicornia: 0
   },
   elements: {
     fuego: 0,
