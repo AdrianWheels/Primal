@@ -1,0 +1,493 @@
+{
+    "1": {
+      "Index": [1],
+      "Element": ["Horn"],
+       
+      "Tittle": ["The Memory of the Desert"],
+      "Monster": ["Toramat"],
+      "QuestText": [
+        "Severe earthquakes rocked the arid desert north of Alborea, where archaeologist Emera and her team were on a research mission. Central Command has organized a rescue expedition to find the seekers’ camp and bring the survivors home."
+      ]
+    },
+    "2": {
+      "Index": [2],
+      "Element": ["Thunder"],
+      "Quest text": ["Nilea"],
+      "Tittle": ["A Flight in the Storm"],
+      "Monster": ["Ozew"],
+      "QuestText": [
+        "One of the Seekers’ airships has not returned from its last expedition to the north. Central Command has requested a group of hunters go on a mission to find out what has happened."
+      ]
+    },
+    "3": {
+      "Index": [3],
+      "Element": ["Coral"],
+       
+      "Tittle": ["The Roar of the Sea"],
+      "Monster": ["Korowon"],
+      "QuestText": [
+        "A powerful storm surge has hit the Riverlands. Driven by the high tide, some monsters have made their way inland and destroyed the outpost in the region. As the search for survivors continues, the rescuers must be protected, and the beast ravaging the area must be hunted down."
+      ]
+    },
+    "4": {
+      "Index": [4],
+      "Element": ["Crystal"],
+       
+      "Tittle": ["The Pack Leader"],
+      "Monster": ["Felaxir"],
+      "QuestText": [
+        "The archaeologist, Emera, has prepared an expedition to explore the gorges of the canyon bordering the Salt Desert. The aim is to study the ruins of an ancient civilization that once lived on Thyrea. A team of hunters is required to escort Emera and her seekers."
+      ]
+    },
+    "5": {
+      "Index": [5],
+      "Element": ["Metal"],
+       
+      "Tittle": ["Claws of Silver"],
+      "Monster": ["Hurom"],
+      "QuestText": [
+        "Jasiver is seeking an escort for a mission to the Goldarks to find Arkeum deposits - a valuable resource for Alborea that could allow airships to sail through the Everlasting Storm."
+      ]
+    },
+    "6": {
+      "Index": [6],
+      "Element": ["Crystal"],
+       
+      "Tittle": ["On the Hunt Between the Two Deserts"],
+      "Monster": ["Felaxir"],
+      "QuestText": [
+        "A pack of Felaxir has extended its hunting territory to the borders between the Salt Desert and the Sunset Plains, where several research outposts had been established. No one has received news from any of these outposts for some time. Central Command has requested a search and rescue squad set out to find any survivors and bring them home."
+      ]
+    },
+    "7": {
+      "Index": [7],
+      "Element": ["Metal"],
+       
+      "Tittle": ["The Zarka Temple"],
+      "Monster": ["Tarragua"],
+      "QuestText": [
+        "One of the Seekers’ airships flying over the Goldarks spotted an ancient structure nestled in one of the valleys between the mountains. Central Command, after the recent discoveries about the people who lived in the region, wants further research to be carried out by exploring those ruins."
+      ]
+    },
+    "8": {
+      "Index": [8],
+      "Element": ["Metal"],
+       
+      "Tittle": ["The Iron-Eater"],
+      "Monster": ["Tarragua"],
+      "QuestText": [
+        "A research base was established in the north to study the phenomenon of the Everlasting Storm, but a bloodthirsty monster is making the territory dangerous for seekers. A team of hunters must set off to protect the outpost."
+      ]
+    },
+    "9": {
+      "Index": [9],
+      "Element": ["Coral"],
+       
+      "Tittle": ["The Cave of Stars"],
+      "Monster": ["Orouxen"],
+      "QuestText": [
+        "In the Riverlands, the tide has retreated, and the rumors gathered from the survivors in the area speak of a long-submerged underground cave that is now accessible. The Seekers believe it may be an ancient Krismari site."
+      ]
+    },
+    "10": {
+      "Index": [10],
+      "Element": ["Coral"],
+       
+      "Tittle": ["The Submerged Lands"],
+      "Monster": ["Orouxen"],
+      "QuestText": [
+        "Violent storm surges continue to hit the Blue Delta and the high tide has submerged the Riverlands for several miles inland. As a result of the flooding, the sea has returned some lost artifacts from the ancient Krismari people. A team of hunters has been ordered to protect Nael and his seekers on an exploration mission."
+      ]
+    },
+    "11": {
+      "Index": [11],
+      "Element": ["Fire"],
+       
+      "Tittle": ["The City of Remembrance"],
+      "Monster": ["Kharja"],
+      "QuestText": [
+        "Nael survived in the Woltyar wilderness, and, on his journey home, he spotted an ancient structure carved into the rock along the slopes of the volcano. According to him, a Kharja prowls the area, preventing any attempt to explore those mysterious ruins."
+      ]
+    },
+    "12": {
+      "Index": [12],
+      "Element": ["Horn"],
+       
+      "Tittle": ["Ancient Kaer Maga"],
+      "Monster": ["Dygorax"],
+      "QuestText": [
+        "Central Command has entrusted Emera with the task of leading the teams of seekers studying the Tecli ruins between the Sunset Plains and the Salt Desert. Emera wants to map the unexplored parts of the plains, which is the territory of a Dygorax."
+      ]
+    },
+    "13": {
+      "Index": [13],
+      "Element": ["Thunder"],
+       
+      "Tittle": ["Queen Ozew"],
+      "Monster": ["Ozew"],
+      "QuestText": [
+        "The seekers who have long studied the Everlasting Storm raging over the Dragon’s Ridge Mountains have reported it is getting larger due to the Ozew Swarm. The Swarm is held together by the presence of a unique and powerful specimen: the Queen. An expedition led by the Commander has set out to eliminate this monster."
+      ]
+    },
+    "14": {
+      "Index": [14],
+      "Element": ["Horn"],
+       
+      "Tittle": ["The Dragon with a Thousand Faces"],
+      "Monster": ["Dygorax"],
+      "QuestText": [
+        "In the gorges of the canyons of the Red Peaks, the territory of a Dygorax, a large rock wall has been discovered on which countless enigmatic faces have been depicted. The Keeper is organizing an expedition to explore the place because the description of the wall is familiar to him."
+      ]
+    },
+    "15": {
+      "Index": [15],
+      "Element": ["Crystal"],
+       
+      "Tittle": ["Strange Crystals"],
+      "Monster": ["Felaxir"],
+      "QuestText": [
+        "After the recent discoveries, Nael, the Prime Seeker, has announced a mission to establish an outpost on the Crystal Plateau. The mission objective is to find out more about the nature of the crystals that grow in the tunnels beneath the plateau and throughout the region."
+      ]
+    },
+    "16": {
+      "Index": [16],
+      "Element": ["Thunder"],
+       
+      "Tittle": ["The Sanctuary of the Storm"],
+      "Monster": ["Ozew"],
+      "QuestText": [
+        "Seekers Hedi and Marh have identified the location of a temple built by the Zarka people in the Dragon’s Ridge Mountains. The Seekers Corps plan to explore it to gain a better understanding of the traditions and beliefs of that ancient civilization."
+      ]
+    },
+    "17": {
+      "Index": [17],
+      "Element": ["Fire"],
+       
+      "Tittle": ["A Flower in the Mist"],
+      "Monster": ["Vyraxen"],
+      "QuestText": [
+        "According to the ancient tome found in the necropolis of Woltyar, a rare flower grows hidden and protected in the shadow of the volcano. Thessa has launched an expedition to retrieve it."
+      ]
+    },
+    "18": {
+      "Index": [18],
+      "Element": ["Horn"],
+       
+      "Tittle": ["The Halls of Remembrance"],
+      "Monster": ["Toramat"],
+      "QuestText": [
+        "The seekers have located the ruins that the Keeper had glimpsed in his visions, which he calls the 'Halls of Remembrance.' Emera has requested an escort for a reconnaissance mission."
+      ]
+    },
+    "19": {
+      "Index": [19],
+      "Element": ["Metal"],
+       
+      "Tittle": ["The Throne Under the Mountain"],
+      "Monster": ["Hurom"],
+      "QuestText": [
+        "After the flight through the Everlasting Storm, Central Command is interested in the extraordinary effects of Arkeum and wants to mine as much of it as possible. The Keeper has had a vision about a large deposit in the heart of the Goldarks and he will lead the mission along with Commander Reja."
+      ]
+    },
+    "20": {
+      "Index": [20],
+      "Element": ["Crystal"],
+       
+      "Tittle": ["Crystallization"],
+      "Monster": ["Morkraas"],
+      "QuestText": [
+        "The seekers have found access to an unexplored level of tunnels deep beneath the Crystal Plateau. Nael has requested a hunting squad to escort him on his research mission."
+      ]
+    },
+    "21": {
+      "Index": [21],
+      "Element": ["Metal"],
+       
+      "Tittle": ["The Throne of the Dragon"],
+      "Monster": ["Hurom"],
+      "QuestText": [
+        "The mission to the Sanctuary of the Storm has sparked interest in the potential of Arkeum, the golden metal that can be mined in the Goldarks. Along with the Commander, a mission sets off in search of Aurum, the throne of the Dragon."
+      ]
+    },
+    "22": {
+      "Index": [22],
+      "Element": ["Coral"],
+       
+      "Tittle": ["By the Corals' Gleaming Light"],
+      "Monster": ["Korowon"],
+      "QuestText": [
+        "An unprecedented lunar event has been affecting the natural world and the creatures on Thyrea. The sea to the south has completely receded, revealing the seabed where luminescent seaweed and corals grow as far as the eye can see. The Keeper has requested an escort to go and find out the mysteries of the seabed."
+      ]
+    },
+    "23": {
+      "Index": [23],
+      "Element": ["Coral"],
+       
+      "Tittle": ["The Red Coral Cave"],
+      "Monster": ["Orouxen"],
+      "QuestText": [
+        "The Keeper had a vision while meditating among the glowing corals of the Blue Delta. He sensed great power in the underwater caves in the reefs, and now that the sea has receded, they are accessible. Central Command has called for an expedition to explore these locations."
+      ]
+    },
+    "24": {
+      "Index": [24],
+      "Element": ["Horn"],
+       
+      "Tittle": ["The Tomb of the King"],
+      "Monster": ["Dygorax"],
+      "QuestText": [
+        "Within the pages of the Krismari herbalist’s codex, mention is made of a root used by the ancient Tecli to amplify their power and connection with nature. The root only grows in the arid soil of the Sunset Plains, which is Dygorax territory."
+      ]
+    },
+    "25": {
+      "Index": [25],
+      "Element": ["Fire"],
+       
+      "Tittle": ["Heart on Fire"],
+      "Monster": ["Kharja"],
+      "QuestText": [
+        "A devastating fire is raging through the Crimson Forest on the slopes of Woltyar. Seekers have reported that the flames are being fueled by a monster that is driven by an uncontrollable instinct to unleash its destructive power. It must be found and stopped before the fire reaches the borders of Alborea."
+      ]
+    },
+    "26": {
+      "Index": [26],
+      "Element": ["Metal"],
+       
+      "Tittle": ["The Voice of the Mountain"],
+      "Monster": ["Tarragua"],
+      "QuestText": [
+        "The Arkeum-rich mine found by the seekers in the Goldarks has been attacked by a Tarragua, which has claimed it as its territory. The Tarragua has been excavating and eating the rock and now its skin shines like golden metal. A team of hunters must hunt it down and recover the precious Arkeum it has stolen from us."
+      ]
+    },
+    "27": {
+      "Index": [27],
+      "Element": ["Fire"],
+       
+      "Tittle": ["The Eternal Flame"],
+      "Monster": ["Vyraxen"],
+      "QuestText": [
+        "The Keeper had an enigmatic vision that led him to the heart of Woltyar. He drew a map leading into the depths of the volcano, to the place where, according to his mystical intuitions, the flame from which the perpetually burning ember found in the Zarka Temple on the Goldarks originated."
+      ]
+    },
+    "28": {
+      "Index": [28],
+      "Element": ["Crystal"],
+       
+      "Tittle": ["The Crystal Mountain"],
+      "Monster": ["Morkraas"],
+      "QuestText": [
+        "A colossal monster has awakened from its hibernation in the caves of the Crystal Plateau. The Plateau has collapsed, and the neighboring regions have been hit by terrible earthquakes. Led by the Commander, several squads of hunters have set off to deal with the beast and stop it before it can reach Alborea."
+      ]
+    },
+    "29": {
+      "Index": [29],
+      "Element": ["Thunder"],
+       
+      "Tittle": ["The Echo Caves"],
+      "Monster": ["Jekoros"],
+      "QuestText": [
+        "Following the dispersal of the Swarm, the seekers have pushed their search expedition further into the valleys and mountains of the Three Spears and discovered a maze of underground chambers that are believed to be the oldest of their kind in all Thyrea. The Commander is leading an expedition into the caves, one of the darkest places on the island."
+      ]
+    },
+    "30": {
+      "Index": [30],
+      "Element": ["Thunder"],
+       
+      "Tittle": ["The Voice of the Storm"],
+      "Monster": ["Jekoros"],
+      "QuestText": [
+        "The Ozew Swarm that used to fill the sky above the Three Spears with lightning has been swallowed up by gigantic black clouds that continue to amass ominously all over the Dragon’s Ridge Mountains. An expedition has set out to understand what has been happening in the north."
+      ]
+    },
+    "31": {
+      "Index": [31],
+      "Element": ["Thunder"],
+       
+      "Tittle": ["The Wreckage of the Airship"],
+      "Monster": ["Zekalith"],
+      "QuestText": [
+        "The wreckage of the airship lost in the north was spotted in the Dragon’s Ridge Mountains. The airship must have been attacked by a monster. You need to depart as soon as possible to rescue the survivors."
+      ]
+    },
+    "32": {
+      "Index": [32],
+      "Element": ["Thunder"],
+       
+      "Tittle": ["An Underground Flower"],
+      "Monster": ["Zekalith"],
+      "QuestText": [
+        "According to the ancient tome found in the Woltyar necropolis, a rare flower grows in the damp caves of the Dragon’s Ridge Mountains. The Herbalist Thessa has launched an expedition to retrieve a sample."
+      ]
+    },
+    "33": {
+      "Index": [33],
+      "Element": ["Feather"],
+       
+      "Tittle": ["The Final Pages"],
+      "Monster": ["Xitheros"],
+      "QuestText": [
+        "In the last chapter of the Tome of Creatures, Nael read that his brother was preparing for a new mission in the heart of the Niz-Maraga jungle. He was on the trail of a specimen that belonged to an unknown species."
+      ]
+    },
+    "34": {
+      "Index": [34],
+      "Element": ["Fire"],
+       
+      "Tittle": ["The Breath of the Dragon"],
+      "Monster": ["Taraska"],
+      "QuestText": [
+        "The Keeper had an enigmatic vision that led him to the heart of Woltyar. He drew a map leading into the depths of the volcano to the place where, according to his mystical intuitions, the burning ember found in the Goldarks originated."
+      ]
+    },
+    "35": {
+      "Index": [35],
+      "Element": ["Fire"],
+       
+      "Tittle": ["In the Mouth of the Volcano"],
+      "Monster": ["Taraska"],
+      "QuestText": [
+        "From the codex of the Krismari herbalist, seekers Hedi and Marh have recognized a rare flower that grows in the Woltyar region, whose essence, according to the ancients, was able to give superhuman strength. A team of hunters has been ordered to depart to accompany them on a collection mission."
+      ]
+    },
+    "36": {
+      "Index": [36],
+      "Element": ["Feather"],
+       
+      "Tittle": ["The Monster of Muara"],
+      "Monster": ["Pazis"],
+      "QuestText": [
+        "News arrives that the Muara outpost, deep inside the jungle, is under threat from a large Pazis. A squad of hunters must reach the area as soon as possible and confront the monster."
+      ]
+    },
+    "37": {
+      "Index": [37],
+      "Element": ["Feather"],
+       
+      "Tittle": ["The River Dragon"],
+      "Monster": ["Nagarjas"],
+      "QuestText": [
+        "The seekers at the Muara outpost have discovered the entrance to a large tunnel behind Mistaria Falls. A squad of hunters sets out to track down a rare creature that has been spotted prowling the area; they call it the river dragon."
+      ]
+    },
+    "38": {
+      "Index": [38],
+      "Element": ["Feather"],
+       
+      "Tittle": ["A Hunt in the Jungle"],
+      "Monster": ["Pazis"],
+      "QuestText": [
+        "Thessa is conducting a study of the poisons produced by the monsters in order to create new recipes that may be of use to the Hunter Corps. She has asked you to obtain a vial of the paralyzing poison produced by Pazis, the creatures that devastated the Muara outpost."
+      ]
+    },
+    "39": {
+      "Index": [39],
+      "Element": ["Feather"],
+       
+      "Tittle": ["The Stones of the Primordials"],
+      "Monster": ["Nagarjas"],
+      "QuestText": [
+        "The Keeper wants to search the jungle for the temple he saw in a recent vision. The building still houses some objects from Thyrea’s distant past. A team of experienced hunters, who have already been in the Niz-Maraga jungle, is required to escort him on this mission."
+      ]
+    },
+    "40": {
+      "Index": [40],
+      "Element": ["Thunder"],
+       
+      "Tittle": ["The Abyss Beyond the Waterfall"],
+      "Monster": ["Jekoros"],
+      "QuestText": [
+        "Every seeker who has ventured through the gap beyond Mistaria Falls has spoken of a strange echo coming from the depths of the cave. No one has yet dared to continue with the explorations there. What is hidden in that underground abyss?"
+      ]
+    },
+    "41": {
+      "Index": [41],
+      "Element": ["Venom"],
+       
+      "Tittle": ["The Dying Forest"],
+      "Monster": ["Hydar"],
+      "QuestText": [
+        "A team of seekers who have just returned from the Niz-Maraga jungle have reported that the plants there are inexplicably dying, and the monsters that inhabit the area are prowling around hungrily and tensely. A new expedition has set off to find out what is happening there."
+      ]
+    },
+    "42": {
+      "Index": [42],
+      "Element": ["Venom"],
+       
+      "Tittle": ["The Dark Swamp"],
+      "Monster": ["Reikal"],
+      "QuestText": [
+        "The snakes that are invading the Niz-Maraga jungle are the cause of the decay that has blighted the vegetation in the region. Central Command has launched an expedition to track down these infectious pests, follow them to the center of the Endless Swamp where they have come from, and figure out their origins."
+      ]
+    },
+    "43": {
+      "Index": [43],
+      "Element": ["Venom"],
+       
+      "Tittle": ["The Night of Niz-Maraga"],
+      "Monster": ["Reikal"],
+      "QuestText": [
+        "The northern border of Niz-Maraga has now been transformed into an expanse of rotting plants. The Seekers are convinced this is due to an unknown creature that comes from the great swamp to the east. Central Command has launched an expedition to hunt down the monster and save the jungle."
+      ]
+    },
+    "44": {
+      "Index": [44],
+      "Element": ["Venom"],
+       
+      "Tittle": ["Moonflower"],
+      "Monster": ["Hydar"],
+      "QuestText": [
+        "Central Command wants to acquire all the extant knowledge and power of the ancients. The Krismari herbal codex contains a description of a very rare flower in the Niz-Maraga jungle, whose extract was used to make a mixture that allowed ancient warriors and hunters to feed on the pain of their enemies."
+      ]
+    },
+    "45": {
+      "Index": [45],
+      "Element": ["Horn"],
+       
+      "Tittle": ["The Halls of Remembrance"],
+      "Monster": ["Toramat"],
+      "QuestText": [
+        "The ancients built a site on the Sunset Plains, which was once a land of primordial trees. There, the Tecli guarded the secrets and history of their people. Central Command has organized an expedition led by the Keeper himself in search of this place."
+      ]
+    },
+    "46": {
+      "Index": [46],
+      "Element": ["Ice"],
+       
+      "Tittle": ["Ravenous Winter"],
+      "Monster": ["Sirkaaj"],
+      "QuestText": [
+        "A pack of Sirkaaj has come down from the far north and is attacking outposts built in the cold lands of Vintrar. The Commander has requested a team of hunters to protect the seekers on a mission in the north."
+      ]
+    },
+    "47": {
+      "Index": [47],
+      "Element": ["Ice"],
+       
+      "Tittle": ["Glacial Bite"],
+      "Monster": ["Sirkaaj"],
+      "QuestText": [
+        "Along with the freezing weather advancing from the north, monsters have descended from the mountains and poured into the valley, destroying the outposts beyond the Dragon’s Ridge Mountains. Hundreds of people are missing, after seeking refuge in the mountains. Hunting teams have been sent to rescue them and fight off the creatures of the great freeze."
+      ]
+    },
+    "48": {
+      "Index": [48],
+      "Element": ["Ice"],
+       
+      "Tittle": ["The Tomb of Ice"],
+      "Monster": ["Mamuraak"],
+      "QuestText": [
+        "The Seekers have figured out that the freezing weather coming from the north gripping the nearby regions in an icy vice is caused by a gargantuan creature that is migrating south. A team of hunters must prevent it from continuing any further."
+      ]
+    },
+    "49": {
+      "Index": [49],
+      "Element": ["Ice"],
+       
+      "Tittle": ["The Star Gate"],
+      "Monster": ["Mamuraak"],
+      "QuestText": [
+        "The Keeper had a vision in front of the crystal meteorite fragment. He is convinced that he has seen the place the Celestial comes from. It is located in the extreme north, beyond the Vintrarian tundra, toward the frozen mountains."
+      ]
+    }
+  }
+  

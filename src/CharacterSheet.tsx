@@ -16,7 +16,7 @@ import {
 } from './constants';
 
 const CharacterSheet: React.FC = () => {
-  const [character, setCharacter] = useState<Character>(defaultCharacter);
+  const [character, setCharacter] = useState<Character>(defaultCharacter); // Asegúrate de que defaultCharacter esté actualizado
   const [characters, setCharacters] = useState<Character[]>([]);
   const [activeCharacterIndex, setActiveCharacterIndex] = useState<number | null>(null);
   const [isForgeVisible, setIsForgeVisible] = useState(false);

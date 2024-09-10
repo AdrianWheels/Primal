@@ -43,11 +43,11 @@ interface Materials extends Record<string, number> {
 
 interface Plants extends Record<string, number> {
   nillea: number;
-  tamanei: number;
-  almalexia: number;
-  melius: number;
+  tamaret: number; 
+  albalacea: number;
+  mellis: number; 
   anthemon: number;
-  skellicornia: number;
+  saelicornia: number;
 }
 
 interface Elements extends Record<string, number> {
@@ -92,11 +92,11 @@ const defaultCharacter: Character = {
   },
   plants: {
     nillea: 0,
-    tamanei: 0,
-    almalexia: 0,
-    melius: 0,
+    tamaret: 0,
+    albalacea: 0, 
+    mellis: 0,
     anthemon: 0,
-    skellicornia: 0,
+    saelicornia: 0,
   },
   elements: {
     fuego: 0,

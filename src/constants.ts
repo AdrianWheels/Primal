@@ -5,11 +5,11 @@ import ZimaIcon from './iconos/zima.png';
 import IrideIcon from './iconos/iride.png';
 import KobaureoIcon from './iconos/kobaureo.png';
 import NilleaIcon from './iconos/nillea.png';
-import TamaneiIcon from './iconos/tamanei.png';
-import AlmalexiaIcon from './iconos/almalexia.png';
-import MeliusIcon from './iconos/melius.png';
+import TamaretIcon from './iconos/tamaret.png'; 
+import AlbalaceaIcon from './iconos/albalacea.png'; 
+import MellisIcon from './iconos/mellis.png'; 
 import AnthemonIcon from './iconos/anthemon.png';
-import SkellicorniaIcon from './iconos/skellicornia.png';
+import SaelicorniaIcon from './iconos/saelicornia.png'; 
 import FireIcon from './iconos/fuego.png';
 import HornIcon from './iconos/cuerno.png';
 import CoralIcon from './iconos/coral.png';
@@ -46,11 +46,11 @@ export const defaultCharacter = {
   },
   plants: {
     Nillea: 0,
-    Tamanei: 0,
-    Almalexia: 0,
-    Melius: 0,
+    Tamaret: 0, 
+    Albalacea: 0, 
+    Mellis: 0,
     Anthemon: 0,
-    Skellicornia: 0,
+    Saelicornia: 0, 
   },
   elements: {
     Fire: 0,
@@ -86,11 +86,11 @@ export const materialIcons = {
 
 export const plantIcons = {
   Nillea: NilleaIcon,
-  Tamanei: TamaneiIcon,
-  Almalexia: AlmalexiaIcon,
-  Melius: MeliusIcon,
+  Tamaret: TamaretIcon, 
+  Albalacea: AlbalaceaIcon, 
+  Mellis: MellisIcon, 
   Anthemon: AnthemonIcon,
-  Skellicornia: SkellicorniaIcon,
+  Saelicornia: SaelicorniaIcon,
 };
 
 export const elementIcons = {

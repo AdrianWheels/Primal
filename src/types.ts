@@ -16,11 +16,10 @@ export interface Skills {
   export interface Plants {
     [key: string]: number;
     Nillea: number;
-    Tamanei: number;
-    Almalexia: number;
-    Melius: number;
-    Anthemon: number;
-    Skellicornia: number;
+    Tamaret: number; 
+    Albalacea: number; 
+    Mellis: number;
+    Saelicornia: number; 
   }
   
   export interface Elements {
@@ -41,8 +40,14 @@ export interface Skills {
     class: string;
     skills: Skills;
     materials: Materials;
-    plants: Plants;
+    plants: {
+      Nillea: number;
+      Tamaret: number;
+      Albalacea: number;
+      Mellis: number; 
+      Anthemon: number;
+      Saelicornia: number; 
+    };
     elements: Elements;
     notes: string;
   }
-  
