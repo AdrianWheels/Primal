@@ -43,11 +43,11 @@ interface Materials extends Record<string, number> {
 
 interface Plants extends Record<string, number> {
   nillea: number;
-  tamanei: number;
-  almalexia: number;
-  melius: number;
+  tamaret: number;
+  albalacea: number;
+  mellis: number;
   anthemon: number;
-  skellicornia: number;
+  saelicornia: number;
 }
 
 interface Elements extends Record<string, number> {
