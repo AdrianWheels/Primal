@@ -47,10 +47,10 @@ export const defaultCharacter = {
   plants: {
     Nillea: 0,
     Tamanei: 0,
-    Almalexia: 0,
-    Melius: 0,
+    Albalacea: 0,
+    Mellis: 0,
     Anthemon: 0,
-    Skellicornia: 0,
+    Saelicornia: 0,
   },
   elements: {
     Fire: 0,
@@ -87,10 +87,10 @@ export const materialIcons = {
 export const plantIcons = {
   Nillea: NilleaIcon,
   Tamanei: TamaneiIcon,
-  Almalexia: AlmalexiaIcon,
-  Melius: MeliusIcon,
+  Albalacea: AlmalexiaIcon,
+  Mellis: MeliusIcon,
   Anthemon: AnthemonIcon,
-  Skellicornia: SkellicorniaIcon,
+  Saelicornia: SkellicorniaIcon,
 };
 
 export const elementIcons = {
