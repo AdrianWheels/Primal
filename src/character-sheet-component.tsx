@@ -93,10 +93,10 @@ const defaultCharacter: Character = {
   plants: {
     nillea: 0,
     tamanei: 0,
-    almalexia: 0,
-    melius: 0,
+    albalacea: 0,
+    mellis: 0,
     anthemon: 0,
-    skellicornia: 0,
+    saelicornia: 0,
   },
   elements: {
     fuego: 0,
@@ -273,10 +273,10 @@ const CharacterSheet: React.FC = () => {
   const plantIcons = {
     nillea: nilleaIcon,
     tamanei: tamaneiIcon,
-    almalexia: almalexiaIcon,
-    melius: meliusIcon,
+    albalacea: almalexiaIcon,
+    mellis: meliusIcon,
     anthemon: anthemonIcon,
-    skellicornia: skellicorniaIcon,
+    saelicornia: skellicorniaIcon,
   };
 
   const elementIcons = {
